@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: #141414;
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+
+.header-icon {
+  color: red;
+  font-size: xx-large;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px 20px 5px;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url(../../recorces/netflixProfileIcon.jpg);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.profile-arrow {
+  margin-left: 8px;
+  border-left: 9px solid transparent;
+  border-top: 9px solid white;
+  transform: rotate(-225deg);
+  transition: 200ms ease;
+}
+
+.username:hover .profile-arrow {
+  transform: rotate(-45deg);
+}
+
+.dropdown {
+  position: fixed;
+  top: 70px;
+  right: 35px;
+  z-index: 20;
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid rgba(117, 117, 117, 1);
+  height: 140px;
+  width: 165px;
+  cursor: default;
+}
+
+.arrow {
+  position: fixed;
+  top: 58px;
+  right: 68px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.dropdown,
+.arrow {
+  transform: translateX(200px);
+  animation-duration: 2s;
+}
+
+.username:hover .dropdown,
+.username:hover .arrow,
+.dropdown:hover {
+  transform: translateX(0px);
+}
+
+.dropdown:hover ~ .profile-arrow {
+  transform: rotate(-225deg);
+}
+
+.dropdown-profile {
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.ddp-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.ddp-name {
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.dd-line {
+  height: 1px;
+  width: 163px;
+  margin: 20px 0px;
+  background-color: rgba(117, 117, 117, 1);
+}
+
+.dd-signout {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.dd-signout:hover {
+  text-decoration-line: underline;
+}

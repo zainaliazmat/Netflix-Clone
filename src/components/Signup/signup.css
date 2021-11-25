@@ -1,0 +1,217 @@
+* {
+  color: white;
+}
+.su-li-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../recorces/background.png");
+}
+
+.su-li-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(20, 20, 20, 0.7);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  padding: 30px;
+  background-color: #141414;
+  text-align: center;
+}
+
+.card-info h1 {
+  font-size: 35px;
+  color: #f51b26;
+}
+
+.card-info h2 {
+  font-size: x-large;
+}
+
+.card-info h3 {
+  font-size: large;
+  margin-top: 20px;
+}
+
+.wrapper-card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  width: 650px;
+}
+
+.card-form h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 535px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.ln,
+.em,
+.cps {
+  margin-left: 30px;
+}
+
+.form-fields input {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  height: 35px;
+  width: 250px;
+  padding: 15px;
+}
+
+.form-fields input:focus {
+  outline-color: red;
+}
+
+.submit {
+  background-color: #141414;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.submit:hover {
+  background-color: red;
+}
+
+.login-link {
+  display: flex;
+  margin-top: 40px;
+}
+
+.su-li-link {
+  margin-left: 10px;
+  color: #f51b26;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.su-li-link:hover {
+  transform: translate(2px, -2px);
+  font-size: 17px;
+}
+
+.fn,
+.ln,
+.pn,
+.em,
+.ps,
+.cps {
+  position: relative;
+}
+
+.errorIcon {
+  position: absolute;
+  background-color: #f51b26;
+  border-radius: 50%;
+  top: 29px;
+  right: 5%;
+  height: 28%;
+  width: 9%;
+}
+
+.errorLine {
+  border: 1px solid red;
+  width: 245px;
+  margin-left: 2.5px;
+  position: absolute;
+  top: 56px;
+}
+
+.errorText {
+  color: red;
+  font-size: small;
+}
+
+@media (max-width: 1010px) {
+  .su-li-background {
+    width: 100vw;
+    height: 1000px;
+    height: fit-content + 100px;
+    background-size: cover;
+  }
+
+  .su-li-card {
+    flex-direction: column;
+  }
+
+  .card-info {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .su-li-background {
+    width: 100vw;
+    height: 1400px;
+    background-size: cover;
+  }
+
+  .su-li-card {
+    flex-direction: column;
+  }
+
+  .card-info {
+    width: auto;
+  }
+
+  .wrapper-card-form {
+    width: 400px;
+  }
+
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  .ln,
+  .em,
+  .cps {
+    margin-left: 0px;
+  }
+
+  .submit {
+    margin-top: 40px;
+    width: 260px;
+  }
+
+  .login-link {
+    margin-top: 20px;
+  }
+}

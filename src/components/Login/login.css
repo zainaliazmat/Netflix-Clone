@@ -1,0 +1,62 @@
+.li-card-form {
+  margin: 40px;
+}
+
+.li-form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.li-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+
+.li-field input {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  height: 35px;
+  width: 350px;
+  padding: 20px;
+}
+
+.li-submit {
+  background-color: #141414;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 350px;
+}
+
+.li-field .errorIcon {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  height: 30%;
+  width: 8%;
+}
+
+.li-field .errorLine {
+  border: 1px solid red;
+  width: 345px;
+  margin-left: 2.5px;
+  position: absolute;
+  top: 64px;
+}
+
+.li-card-form h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.form-fields input:focus {
+  outline-color: red;
+}
+
+.li-submit:hover {
+  background-color: red;
+}
