@@ -13,7 +13,7 @@ const ProtectedRoute = ({ children, ...restProps }) => {
           return children;
         } else {
           console.log("false field sun");
-          return <Redirect to="/login" />;
+          return <Redirect to="/" />;
         }
       }}
     />
