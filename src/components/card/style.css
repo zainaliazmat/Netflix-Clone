@@ -75,7 +75,7 @@
   border: 1px solid gray;
   border-radius: 50%;
   position: relative;
-  height: 16px;
+  height: 18px;
   width: 25px;
 }
 
@@ -128,7 +128,7 @@
 .card-hd-icon,
 .card-age-icon {
   position: relative;
-  width: 14px;
+  width: 28px;
   height: 11px;
 }
 
