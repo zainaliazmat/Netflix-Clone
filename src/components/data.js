@@ -29,7 +29,7 @@ const data = [
   {
     id: "14",
     title: "The Witcher",
-    URL: "https://images.indianexpress.com/2019/12/the-witcher-netflix-759.jpg",
+    URL: "https://resizing.flixster.com/48Fl1jGadkTYasxqdFtg0CuGjhw=/1100x618/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17580186_b_h8_ak.jpg",
     releaseDate: "20-dec-2019",
     timeDuration: "2 seasons",
     gener: "Fantasy ",
@@ -47,7 +47,7 @@ const data = [
   {
     id: "16",
     title: "Peaky Blinders",
-    URL: "https://thumbs-prod.si-cdn.com/Frk9N0whaZA7dSd13Tbcwd0-bbU=/420x240/filters:focal(634x85:635x86)/https://public-media.si-cdn.com/filer/7b/ba/7bba298e-7e2e-44f0-adb9-b47dfdc1e240/p05m69vt.jpg",
+    URL: "https://e0.pxfuel.com/wallpapers/962/608/desktop-wallpaper-peaky-blinders-peaky-blinders-poster-peaky-blinders-peaky-blinders.jpg",
     releaseDate: "12-sep-2013",
     timeDuration: "5 seasons",
     gener: "Drama Violent",
@@ -65,7 +65,7 @@ const data = [
   {
     id: "",
     title: "The Old Guard",
-    URL: "https://jsuchanticleer.com/wp-content/uploads/2020/10/THE-OLD-GUARD-REVIEW.jpg",
+    URL: "https://w0.peakpx.com/wallpaper/470/16/HD-wallpaper-charlize-theron-movie-chiwetel-ejiofor-matthias-schoenaerts-marwan-kenzari-andromache-of-scythia-the-old-guard-booker-the-old-guard-copley-the-old-guard-kiki-layne-luca-marinelli-nicky.jpg",
     releaseDate: "10-july-2020",
     timeDuration: "2h 5m",
     gener: "Action Fantasy",

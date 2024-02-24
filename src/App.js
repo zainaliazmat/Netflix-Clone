@@ -10,10 +10,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams,
-  useHistory,
 } from "react-router-dom";
 
 function App() {

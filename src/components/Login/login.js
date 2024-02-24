@@ -5,20 +5,14 @@ import * as Yup from "yup";
 import { Error } from "../error/error";
 import { Popup } from "../Screen-PopUp/poup";
 import { RootContext } from "../../Context/rootContext";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+import { 
   Link,
-  useRouteMatch,
-  useParams,
   useHistory,
 } from "react-router-dom";
 
 export const Login = () => {
   const [popup, setPopup] = useState(false);
   const { signup, setSignup } = useContext(RootContext);
-  const { user, setUser } = useContext(RootContext);
   let history = useHistory();
   const loginSchema = Yup.object().shape({
     email: Yup.string().email().required("Required"),
