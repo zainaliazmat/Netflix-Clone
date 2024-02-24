@@ -1,6 +1,6 @@
 # Netflix-Clone
 
-Website Link:  https://mynetflix-clone8.netlify.app/
+Website Link:  https://chipper-beignet-a3e5b6.netlify.app/
 
 
 ![Capture8](https://user-images.githubusercontent.com/75805943/143500318-a4182557-4b8a-4b0d-a8c0-b62a5cde8494.PNG)
